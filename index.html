@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Kumar | Portfolio</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors:{
+                        primary:"#3B82F6",
+                        secondary:"#8B5CF6"
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        html{
+            scroll-behavior:smooth;
+        }
+
+        body{
+            background:#0f172a;
+            color:white;
+        }
+
+        .glass{
+            background:rgba(255,255,255,.08);
+            backdrop-filter:blur(10px);
+            border:1px solid rgba(255,255,255,.1);
+        }
+
+        .card:hover{
+            transform:translateY(-10px);
+            transition:.4s;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="fixed top-0 w-full bg-slate-900/80 backdrop-blur-lg z-50">
+
+<div class="max-w-7xl mx-auto flex justify-between items-center px-8 py-4">
+
+<h1 class="text-2xl font-bold text-cyan-400">
+Amit Kumar
+</h1>
+
+<ul class="hidden md:flex gap-8 font-semibold">
+
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#achievements">Achievements</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</div>
+
+</nav>
+
+<!-- Hero -->
+
+<section id="home" class="min-h-screen flex items-center">
+
+<div class="max-w-7xl mx-auto px-8">
+
+<h1 class="text-6xl font-bold">
+
+Hi,
+<span class="text-cyan-400">I'm Amit Kumar</span>
+
+</h1>
+
+<p class="text-2xl mt-5 text-gray-300">
+B.Tech CSE (Artificial Intelligence)
+</p>
+
+<p class="mt-8 text-gray-400 max-w-2xl">
+
+Final-year Computer Science Engineering student passionate about Artificial Intelligence, Machine Learning and Data Analytics.
+
+</p>
+
+<div class="mt-10 flex gap-5">
+
+<a href="#contact" class="bg-cyan-500 px-8 py-3 rounded-full">
+Contact Me
+</a>
+
+<a href="#" class="border border-cyan-500 px-8 py-3 rounded-full">
+Download Resume
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- About -->
+
+<section id="about" class="py-24">
+
+<div class="max-w-6xl mx-auto">
+
+<h2 class="text-4xl font-bold text-center text-cyan-400">
+About Me
+</h2>
+
+<div class="glass rounded-3xl p-10 mt-10">
+
+<p class="text-gray-300 leading-8">
+
+I am Amit Kumar, a B.Tech Computer Science Engineering (Artificial Intelligence) student with strong interest in AI technologies, Machine Learning and Web Development. I enjoy solving real-world problems using technology and continuously learning new tools.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Skills -->
+
+<section id="skills" class="py-24">
+
+<div class="max-w-6xl mx-auto">
+
+<h2 class="text-4xl text-center font-bold text-cyan-400 mb-10">
+Skills
+</h2>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<div class="glass p-6 rounded-xl card">Python</div>
+<div class="glass p-6 rounded-xl card">Java</div>
+<div class="glass p-6 rounded-xl card">JavaScript</div>
+<div class="glass p-6 rounded-xl card">HTML</div>
+<div class="glass p-6 rounded-xl card">CSS</div>
+<div class="glass p-6 rounded-xl card">MySQL</div>
+<div class="glass p-6 rounded-xl card">MongoDB</div>
+<div class="glass p-6 rounded-xl card">Express.js</div>
+<div class="glass p-6 rounded-xl card">OpenCV</div>
+<div class="glass p-6 rounded-xl card">MediaPipe</div>
+<div class="glass p-6 rounded-xl card">Docker</div>
+<div class="glass p-6 rounded-xl card">Kubernetes</div>
+<div class="glass p-6 rounded-xl card">Jenkins</div>
+<div class="glass p-6 rounded-xl card">Machine Learning</div>
+<div class="glass p-6 rounded-xl card">Graphic Design</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Education -->
+
+<section id="education" class="py-24 bg-slate-900">
+
+<div class="max-w-6xl mx-auto px-8">
+
+<h2 class="text-4xl font-bold text-center text-cyan-400 mb-16">
+Education
+</h2>
+
+<div class="space-y-8">
+
+<div class="glass rounded-2xl p-8 card">
+<h3 class="text-2xl font-bold">B.Tech CSE (Artificial Intelligence)</h3>
+<p class="text-cyan-400 mt-2">Parul Institute of Technology, Parul University</p>
+<p class="text-gray-400">2023 – 2027</p>
+<p class="mt-3 text-gray-300">Current CGPA: <span class="font-bold text-green-400">6.74</span></p>
+</div>
+
+<div class="glass rounded-2xl p-8 card">
+<h3 class="text-2xl font-bold">12th Standard</h3>
+<p class="text-cyan-400 mt-2">Green Valley International School (CBSE)</p>
+<p class="text-gray-400">2021 – 2023</p>
+<p class="mt-3 text-gray-300">Percentage: <span class="font-bold text-green-400">63%</span></p>
+</div>
+
+<div class="glass rounded-2xl p-8 card">
+<h3 class="text-2xl font-bold">10th Standard</h3>
+<p class="text-cyan-400 mt-2">Green Valley International School (CBSE)</p>
+<p class="text-gray-400">2020 – 2021</p>
+<p class="mt-3 text-gray-300">Percentage: <span class="font-bold text-green-400">74.6%</span></p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Projects -->
+
+<section id="projects" class="py-24">
+
+<div class="max-w-6xl mx-auto px-8">
+
+<h2 class="text-4xl font-bold text-center text-cyan-400 mb-16">
+Projects
+</h2>
+
+<div class="glass rounded-3xl p-10 card">
+
+<h3 class="text-3xl font-bold mb-5">
+🎨 Air Canvas
+</h3>
+
+<p class="text-gray-300 leading-8">
+
+Built a real-time hand gesture drawing application using
+Python, OpenCV and MediaPipe.
+
+</p>
+
+<ul class="mt-6 space-y-3 text-gray-400">
+
+<li>✔ Real-time hand tracking</li>
+<li>✔ Virtual drawing canvas</li>
+<li>✔ Finger gesture recognition</li>
+<li>✔ Computer Vision based project</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Experience -->
+
+<section id="experience" class="py-24 bg-slate-900">
+
+<div class="max-w-6xl mx-auto px-8">
+
+<h2 class="text-4xl text-center font-bold text-cyan-400 mb-16">
+Experience
+</h2>
+
+<div class="glass rounded-3xl p-10 card">
+
+<h3 class="text-3xl font-bold">
+Data Analytics Intern
+</h3>
+
+<p class="text-cyan-400 mt-2">
+CodeAlpha
+</p>
+
+<p class="text-gray-400">
+Dec 2025 - Jan 2026
+</p>
+
+<ul class="mt-6 space-y-3 text-gray-300">
+
+<li>✔ Analyzed datasets and generated business insights.</li>
+<li>✔ Worked on Data Analytics tasks.</li>
+<li>✔ Awarded Best Performer.</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Achievements -->
+
+<section id="achievements" class="py-24">
+
+<div class="max-w-6xl mx-auto px-8">
+
+<h2 class="text-4xl text-center font-bold text-cyan-400 mb-16">
+Achievements & Certifications
+</h2>
+
+<div class="grid md:grid-cols-2 gap-8">
+
+<div class="glass rounded-xl p-6 card">
+🏆 System Operator Certification - TCS
+</div>
+
+<div class="glass rounded-xl p-6 card">
+☁ AWS Academy Cloud Foundations
+</div>
+
+<div class="glass rounded-xl p-6 card">
+☁ AWS Cloud Practitioner Essentials
+</div>
+
+<div class="glass rounded-xl p-6 card">
+🐍 HackerRank Python (Basic)
+</div>
+
+<div class="glass rounded-xl p-6 card">
+🗄 HackerRank SQL (Advanced)
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Contact -->
+
+<section id="contact" class="py-24 bg-slate-900">
+
+<div class="max-w-4xl mx-auto px-8">
+
+<h2 class="text-4xl text-center font-bold text-cyan-400 mb-12">
+Contact Me
+</h2>
+
+<div class="glass rounded-3xl p-10">
+
+<div class="space-y-6 text-lg">
+
+<p>📞 +91 9661814828</p>
+
+<p>📧 AMITKR08235@GMAIL.COM</p>
+
+<p>
+🔗
+<a href="https://linkedin.com/in/amit-kumar-89aa23384"
+target="_blank"
+class="text-cyan-400 hover:underline">
+linkedin.com/in/amit-kumar-89aa23384
+</a>
+</p>
+
+</div>
+
+<div class="mt-10">
+
+<a href="mailto:AMITKR08235@GMAIL.COM"
+class="bg-cyan-500 hover:bg-cyan-600 px-8 py-3 rounded-full font-semibold">
+Send Email
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+
+<footer class="py-8 text-center border-t border-slate-700">
+
+<h2 class="text-2xl font-bold text-cyan-400">
+Amit Kumar
+</h2>
+
+<p class="text-gray-400 mt-3">
+B.Tech CSE (Artificial Intelligence)
+</p>
+
+<p class="text-gray-500 mt-5">
+© 2026 Amit Kumar. All Rights Reserved.
+</p>
+
+</footer>
+
+</body>
+</html>
+
+
+<!-- Continue with Education, Projects, Experience, Achievements, Contact -->
+
